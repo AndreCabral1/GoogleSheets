@@ -1,4 +1,4 @@
-const getAuthSheets = require("./googleSheets"); // Importa a função do arquivo googleSheets.js
+const getAuthSheets = require("./googleSheets");
 
 async function getMetadata(request, response) {
     const { googleSheets, auth, spreadsheetId } = await getAuthSheets();
