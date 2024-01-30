@@ -24,4 +24,4 @@ async function getAuthSheets() {
     };
 }
 
-module.exports = getAuthSheets; // Exporta a função para ser usada em outros arquivos
+module.exports = getAuthSheets;
